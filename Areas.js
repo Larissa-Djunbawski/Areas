@@ -6,21 +6,20 @@ function areacirculo (pi, raio) {
 
 }
 
- const areatriangulo = function (){
-base  
-altura
-areat = base * altura / 2
-return areat
+const retangulo = function (base, altura){
+    return base + altura 
 }
 
-// const arearetangulo = () => {
-//     return
+function triangulo(base, altura) {
+    return base * altura / 2
+}
 
-// }
+
+
 
 
 module.exports  = {
     areacirculo,
-    // areatriangulo,
-    // arearetangulo
+    triangulo,
+    retangulo
 }
